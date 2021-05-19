@@ -22,6 +22,8 @@ urlpatterns = [
     path('', include('core.urls')),
     # app porfolio
     path('', include('portfolio.urls')),
+    # app biografi
+    path('', include('Biografi.urls')),
     # admin
     path('admin/', admin.site.urls),
 ]

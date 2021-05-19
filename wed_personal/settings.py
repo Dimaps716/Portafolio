@@ -48,7 +48,8 @@ INSTALLED_APPS = [
 
     # mis app
     'core',
-    'portfolio.apps.PortfolioConfig'
+    'portfolio.apps.PortfolioConfig',
+    'Biografi'
 ]
 
 MIDDLEWARE = [
